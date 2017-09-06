@@ -7,7 +7,7 @@
    为了能够让 github 识别上传文件的用户，需要创建 ssh key
 
    ```shell
-   ssh-keygen -t tsa -C "your_email@youremail.com" 
+   ssh-keygen -t rsa -C "your_email@youremail.com" 
    # 其中 your_enmail@youremail.com 根据需要更改
    # 输入后会询问时候设置密码，直接回车则不设置
    # 提示 ssh key 已经创建好了
